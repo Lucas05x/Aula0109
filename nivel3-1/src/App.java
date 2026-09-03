@@ -25,7 +25,7 @@ public class App {
             System.out.println("Em recuperação ");
         }
 
-       
+       leitor.close();
 
     
     }
