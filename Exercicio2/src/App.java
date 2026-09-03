@@ -14,5 +14,7 @@ public class App {
         //saida;
 
         System.out.println ("Convertendo a temperatura de " + temperatura + "°C para Farenheit o resultado será 50" + F +"°F" );
+
+        leitor.close();
     }
 }
