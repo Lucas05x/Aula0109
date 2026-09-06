@@ -21,7 +21,7 @@ public class App {
         }
 
         double valorfinal = total - desconto;
-        
+
         System.out.println("---RESUMO---");
 
         System.out.print("Subtotal: R$: "+ total);
@@ -30,6 +30,6 @@ public class App {
         
         System.out.println("Total a pagar: "+ valorfinal);
 
-
+        leitor.close();
     }
 }
